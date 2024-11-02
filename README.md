@@ -39,6 +39,29 @@ To deploy the system:
    ```bash
    pip install -r requirements.txt
 
+3. Create a separate Conda environment:
+   ```bash
+   conda create -n computer_vision python=3.6 -y
+
+4. Activate the environment:
+   ```bash
+   conda activate computer_vision
+
+5. Install the object detection library:
+   ```bash
+   pip install object-detection
+
+6. Run the Program:
+   ```bash
+   python hand_detection.py
+
+### Technology Stack
+- TensorFlow 1.x
+- Object Detection
+- OpenCV
+- Faster RCNN
+- SSD MobileNetV2
+
 ### Future Enhancements
 #### Potential improvements include:
 
