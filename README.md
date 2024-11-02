@@ -48,17 +48,6 @@ The workflow for the **Intelligent Worker Safety System with Real-Time Alerts an
 
 ---
 
-### Workflow Diagram
-
-![Workflow Diagram](path/to/your/workflow_image.png)
-
-This diagram illustrates the flow from data collection to real-time safety actions, providing a comprehensive safety solution for the production environment.
-
-
-### Workflow Diagram
-
-![Workflow Diagram](path/to/your/image.png)
-
 This diagram illustrates the flow of data through each stage in the process, showing how each component contributes to developing a robust and deployable machine learning model.
 
 
