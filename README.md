@@ -29,9 +29,7 @@ To deploy the system:
 3. Load and deploy the SSD MobileNetV2 model for real-time monitoring.
 4. Connect relays to the microcontroller for automated control of machinery.
 
-# Project Workflow
-
-## Project Workflow
+### Project Workflow
 
 The workflow for the **Intelligent Worker Safety System with Real-Time Alerts and Machine Control** project is designed to enhance worker safety through real-time monitoring and automated machine control. The key stages are:
 
@@ -44,6 +42,9 @@ The workflow for the **Intelligent Worker Safety System with Real-Time Alerts an
 7. **Safety Action (Alert / Machine Control)**:
     - **Alarm Trigger** (Safety Line Breach): Activates an alarm if a worker crosses the safety line.
     - **Machine Shutoff** (Boundary Line Breach): Automatically shuts down the machinery if a worker crosses the boundary line.
+
+![hack_2](https://github.com/user-attachments/assets/7d3ad2e4-becc-4b2e-9f0d-ba6dbf99404f)
+
 
 ---
 
