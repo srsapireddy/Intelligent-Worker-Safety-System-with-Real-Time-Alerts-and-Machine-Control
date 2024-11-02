@@ -31,25 +31,28 @@ To deploy the system:
 
 # Project Workflow
 
-This project follows a structured workflow for training and deploying a machine learning model. Below are the key steps:
+## Project Workflow
 
-1. **Data Collection**: 
-   - The process begins with gathering raw data relevant to the task. This data serves as the foundation for model training.
+The workflow for the **Intelligent Worker Safety System with Real-Time Alerts and Machine Control** project is designed to enhance worker safety through real-time monitoring and automated machine control. The key stages are:
 
-2. **Data Augmentation**:
-   - To increase the robustness and generalization of the model, various data augmentation techniques are applied. This step helps in expanding the dataset and improving model performance.
+1. **Data Collection** → Collection of initial data from IP cameras and sensors in the production line.
+2. **Data Augmentation** → Application of augmentation techniques to improve model robustness.
+3. **Annotation** → Labeling of data to indicate worker hands, safety boundaries, and machinery.
+4. **Model Training** → Training SSD MobileNetV2 on annotated data for reliable detection.
+5. **Model Validation** → Validation of the model to ensure high accuracy in detecting safety boundary breaches.
+6. **Real-Time Monitoring** → Deployment of the trained model for active monitoring of the production line.
+7. **Safety Action (Alert / Machine Control)**:
+    - **Alarm Trigger** (Safety Line Breach): Activates an alarm if a worker crosses the safety line.
+    - **Machine Shutoff** (Boundary Line Breach): Automatically shuts down the machinery if a worker crosses the boundary line.
 
-3. **Annotation**:
-   - The augmented data is then annotated to provide labels, bounding boxes, or other necessary information required for supervised learning.
+---
 
-4. **Model Training**:
-   - Using the annotated data, the model is trained to learn the features and patterns required to perform the desired task accurately.
+### Workflow Diagram
 
-5. **Model Validation**:
-   - The trained model undergoes validation to evaluate its performance on unseen data. This step helps in assessing the model's accuracy and generalization capability.
+![Workflow Diagram](path/to/your/workflow_image.png)
 
-6. **Model Deployment With Different Devices**:
-   - After validation, the model is deployed on various devices for practical use. This deployment step ensures that the model functions effectively in real-world scenarios.
+This diagram illustrates the flow from data collection to real-time safety actions, providing a comprehensive safety solution for the production environment.
+
 
 ### Workflow Diagram
 
