@@ -29,6 +29,35 @@ To deploy the system:
 3. Load and deploy the SSD MobileNetV2 model for real-time monitoring.
 4. Connect relays to the microcontroller for automated control of machinery.
 
+# Project Workflow
+
+This project follows a structured workflow for training and deploying a machine learning model. Below are the key steps:
+
+1. **Data Collection**: 
+   - The process begins with gathering raw data relevant to the task. This data serves as the foundation for model training.
+
+2. **Data Augmentation**:
+   - To increase the robustness and generalization of the model, various data augmentation techniques are applied. This step helps in expanding the dataset and improving model performance.
+
+3. **Annotation**:
+   - The augmented data is then annotated to provide labels, bounding boxes, or other necessary information required for supervised learning.
+
+4. **Model Training**:
+   - Using the annotated data, the model is trained to learn the features and patterns required to perform the desired task accurately.
+
+5. **Model Validation**:
+   - The trained model undergoes validation to evaluate its performance on unseen data. This step helps in assessing the model's accuracy and generalization capability.
+
+6. **Model Deployment With Different Devices**:
+   - After validation, the model is deployed on various devices for practical use. This deployment step ensures that the model functions effectively in real-world scenarios.
+
+### Workflow Diagram
+
+![Workflow Diagram](path/to/your/image.png)
+
+This diagram illustrates the flow of data through each stage in the process, showing how each component contributes to developing a robust and deployable machine learning model.
+
+
 ### Installation
 1. Clone this repository:
    ```bash
