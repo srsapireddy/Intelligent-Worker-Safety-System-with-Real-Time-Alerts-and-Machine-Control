@@ -45,7 +45,7 @@ The workflow for the **Intelligent Worker Safety System with Real-Time Alerts an
     - **Alarm Trigger** (Safety Line Breach): Activates an alarm if a worker crosses the safety line.
     - **Machine Shutoff** (Boundary Line Breach): Automatically shuts down the machinery if a worker crosses the boundary line.
 
-
+### YOUTUBE LINK: https://youtu.be/1sEnBVwX_Ss
 ---
 
 This diagram illustrates the flow of data through each stage in the process, showing how each component contributes to developing a robust and deployable machine learning model.
